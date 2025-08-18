@@ -1,0 +1,16 @@
+npx create-react-app todo-frontend
+cd todo-frontend
+npm install -D tailwindcss@3.4.1 postcss@8.4.38 autoprefixer@10.4.19
+npx tailwindcss init -p
+npm install axios
+npm install react-router-dom
+
+Edit tailwind.config.js like this:
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+
+Replace everything in src/index.css with:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
