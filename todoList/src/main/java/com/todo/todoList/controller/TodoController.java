@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 // to get requests from React (react runs on 3000 port)
+// tomcat runs on 8080
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/todos")
