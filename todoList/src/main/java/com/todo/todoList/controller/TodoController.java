@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-// to get requests from React
+// to get requests from React (react runs on 3000 port)
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/todos")
