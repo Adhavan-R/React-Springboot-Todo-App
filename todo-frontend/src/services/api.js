@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8080/api/todos';
+const API_URL = 'https://react-springboot-todo-app.onrender.com/api/todos';
 
 export const fetchTodos = async () => {
   const res = await axios.get(API_URL);
