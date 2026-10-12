@@ -10,7 +10,7 @@ import java.util.List;
 // tomcat runs on 8080
 @CrossOrigin(origins = {
         "http://localhost:3000",
-        "https://YOUR-NETLIFY-SITE.netlify.app"
+        "https://todo-app-production-test.netlify.app/"
 })
 @RestController
 @RequestMapping("/api/todos")
