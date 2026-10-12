@@ -8,7 +8,10 @@ import java.util.List;
 
 // to get requests from React (react runs on 3000 port)
 // tomcat runs on 8080
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {
+        "http://localhost:3000",
+        "https://YOUR-NETLIFY-SITE.netlify.app"
+})
 @RestController
 @RequestMapping("/api/todos")
 public class TodoController {
